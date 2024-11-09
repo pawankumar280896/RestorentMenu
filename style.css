@@ -1,0 +1,27 @@
+nav{
+    display:grid;
+    grid-template-columns: 2fr 5fr 2fr;
+}
+.ulli{
+    display:grid;
+    grid-template-columns: repeat(6,0.5fr);
+}
+
+.button{
+    background-color: rgb(215, 109, 109);
+   color:aliceblue;
+}
+.offerdiv{
+    background-image: url("https://placehold.co/600x200?text=offer-image");
+    position: relative;
+border:2px solid green;
+height: 200px;
+  width: 100%;
+
+}
+.offerBtn{
+display:flex;
+position:relative;
+justify-content: center;
+align-items: center;
+}
