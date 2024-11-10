@@ -1,67 +1,429 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
+</head>
+
+<body>
     <!-- Header -->
     <header>
-      <!-- navbar -->
-      <!-- logo -->
-      <nav>
-        <div class="logo">
-          <img src="#" alt="shopLogo" Name="shopLogo" />
-        </div>
-       <div class="ulli">
-        <ul>
-          <!-- list items for nav bar -->
-          <li>Home</li>
-          <li>Our Menu</li>
-          <li>Our Office</li>
-          <li>Know Us More</li>
-          <li>Your Order</li>
-          <li>Cart(0)</li>
-        </ul>
-    </div>
-        <!-- login / sinup -->
-        <div class="login">
-          <button class="LoginBtn">Login</button>
-        </div>
-      </nav>
+        <!-- navbar -->
+        <!-- logo -->
+        <nav>
+            <div class="logo">
+                <img src="https://placehold.co/200x80?text=ShopLogo" alt="shopLogo" Name="shopLogo" />
+            </div>
+            <div class="ulli">
+                <ul>
+                    <!-- list items for nav bar -->
+                    <li>Home</li>
+                    <li>Our Menu</li>
+                    <li>Our Office</li>
+                    <li>Know Us More</li>
+                    <li>Your Order</li>
+                    <li>Cart(0)</li>
+                </ul>
+            </div>
+            <!-- login / sinup -->
+            <div class="login">
+                <a href="Login.html">Login/Signup</a>
+            </div>
+        </nav>
     </header>
     <!-- section for all -->
-    <section>
+    <section class="section-lead">
         <!-- offer -->
-        <section class="offer">
-            <div class="offerdiv">
-              <div class="offerBtn">
-          <button>check all offer</button>
-              </div>
-            </div> 
+        <section id="offer" class="offerdiv">
+            <button class="offerBtn">check all offer</button>
+            </div>
         </section>
         <section class="menu">
+            <h2>Our Menu</h2>
+            <!-- best seller -->
+            <section class="bestseller">
+                <!-- card 1 -->
+                <div class="card-box">
+                    <div class="headerBox">
+                        <h3>Best Seller</h3>
+                        <button>view all</button>
+                    </div>
+                    <div class="card">
+                        <!-- card 1 -->
+                        <div class="main-box">
+                            <div class="main-img">
+                                <img src="https://placehold.co/200x100?text=BestSeller" alt="SellerImage">
+                            </div>
+                            <div class="main-bdy">
+                                <h4>Best Seller Item 1</h4>
+                                <p>Description of the best seller item.</p>
+                                <span>Price: $10.99 $8.99 10% off</span>
+                                <div class="main-ftr">
+                                    <button>Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card 2 -->
+                        <div class="main-box">
+                            <div class="main-img">
+                                <img src="https://placehold.co/200x100?text=BestSeller" alt="SellerImage">
+                            </div>
+                            <div class="main-bdy">
+                                <h4>Best Seller Item 2</h4>
+                                <p>Description of the best seller item.</p>
+                                <span>Price: $10.99 $8.99 10% off</span>
+                                <div class="main-ftr">
+                                    <button>Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card 3 -->
+                        <div class="main-box">
+                            <div class="main-img">
+                                <img src="https://placehold.co/200x100?text=BestSeller" alt="SellerImage">
+                            </div>
+                            <div class="main-bdy">
+                                <h4>Best Seller Item 3</h4>
+                                <p>Description of the best seller item.</p>
+                                <span>Price: $10.99 $8.99 10% off</span>
+                                <div class="main-ftr">
+                                    <button>Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- best trending -->
+            <section class="bestseller">
+                <!-- card 1 -->
+                <div class="card-box">
+                    <div class="headerBox">
+                        <h3>Trending</h3>
+                        <button>view all</button>
+                    </div>
+                    <div class="card">
+                        <!-- card 1 -->
+                        <div class="main-box">
+                            <div class="main-img">
+                                <img src="https://placehold.co/200x100?text=BestSeller" alt="SellerImage">
+                            </div>
+                            <div class="main-bdy">
+                                <h4>Best Seller Item 1</h4>
+                                <p>Description of the best seller item.</p>
+                                <span>Price: $10.99 $8.99 10% off</span>
+                                <div class="main-ftr">
+                                    <button>Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card 2 -->
+                        <div class="main-box">
+                            <div class="main-img">
+                                <img src="https://placehold.co/200x100?text=BestSeller" alt="SellerImage">
+                            </div>
+                            <div class="main-bdy">
+                                <h4>Best Seller Item 2</h4>
+                                <p>Description of the best seller item.</p>
+                                <span>Price: $10.99 $8.99 10% off</span>
+                                <div class="main-ftr">
+                                    <button>Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card 3 -->
+                        <div class="main-box">
+                            <div class="main-img">
+                                <img src="https://placehold.co/200x100?text=BestSeller" alt="SellerImage">
+                            </div>
+                            <div class="main-bdy">
+                                <h4>Best Seller Item 3</h4>
+                                <p>Description of the best seller item.</p>
+                                <span>Price: $10.99 $8.99 10% off</span>
+                                <div class="main-ftr">
+                                    <button>Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- best starter -->
+            <section class="bestseller">
+                <!-- card 1 -->
+                <div class="card-box">
+                    <div class="headerBox">
+                        <h3>Starter</h3>
+                        <button>view all</button>
+                    </div>
+                    <div class="card">
+                        <!-- card 1 -->
+                        <div class="main-box">
+                            <div class="main-img">
+                                <img src="https://placehold.co/200x100?text=BestSeller" alt="SellerImage">
+                            </div>
+                            <div class="main-bdy">
+                                <h4>Best Seller Item 1</h4>
+                                <p>Description of the best seller item.</p>
+                                <span>Price: $10.99 $8.99 10% off</span>
+                                <div class="main-ftr">
+                                    <button>Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card 2 -->
+                        <div class="main-box">
+                            <div class="main-img">
+                                <img src="https://placehold.co/200x100?text=BestSeller" alt="SellerImage">
+                            </div>
+                            <div class="main-bdy">
+                                <h4>Best Seller Item 2</h4>
+                                <p>Description of the best seller item.</p>
+                                <span>Price: $10.99 $8.99 10% off</span>
+                                <div class="main-ftr">
+                                    <button>Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card 3 -->
+                        <div class="main-box">
+                            <div class="main-img">
+                                <img src="https://placehold.co/200x100?text=BestSeller" alt="SellerImage">
+                            </div>
+                            <div class="main-bdy">
+                                <h4>Best Seller Item 3</h4>
+                                <p>Description of the best seller item.</p>
+                                <span>Price: $10.99 $8.99 10% off</span>
+                                <div class="main-ftr">
+                                    <button>Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- beverages -->
+            <section class="bestseller">
+                <!-- card 1 -->
+                <div class="card-box">
+                    <div class="headerBox">
+                        <h3>Beverages</h3>
+                        <button>view all</button>
+                    </div>
+                    <div class="card">
+                        <!-- card 1 -->
+                        <div class="main-box">
+                            <div class="main-img">
+                                <img src="https://placehold.co/200x100?text=BestSeller" alt="SellerImage">
+                            </div>
+                            <div class="main-bdy">
+                                <h4>Best Seller Item 1</h4>
+                                <p>Description of the best seller item.</p>
+                                <span>Price: $10.99 $8.99 10% off</span>
+                                <div class="main-ftr">
+                                    <button>Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card 2 -->
+                        <div class="main-box">
+                            <div class="main-img">
+                                <img src="https://placehold.co/200x100?text=BestSeller" alt="SellerImage">
+                            </div>
+                            <div class="main-bdy">
+                                <h4>Best Seller Item 2</h4>
+                                <p>Description of the best seller item.</p>
+                                <span>Price: $10.99 $8.99 10% off</span>
+                                <div class="main-ftr">
+                                    <button>Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card 3 -->
+                        <div class="main-box">
+                            <div class="main-img">
+                                <img src="https://placehold.co/200x100?text=BestSeller" alt="SellerImage">
+                            </div>
+                            <div class="main-bdy">
+                                <h4>Best Seller Item 3</h4>
+                                <p>Description of the best seller item.</p>
+                                <span>Price: $10.99 $8.99 10% off</span>
+                                <div class="main-ftr">
+                                    <button>Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- main course -->
+            <section class="bestseller">
+                <!-- card 1 -->
+                <div class="card-box">
+                    <div class="headerBox">
+                        <h3>Main Course</h3>
+                        <button>view all</button>
+                    </div>
+                    <div class="card">
+                        <!-- card 1 -->
+                        <div class="main-box">
+                            <div class="main-img">
+                                <img src="https://placehold.co/200x100?text=BestSeller" alt="SellerImage">
+                            </div>
+                            <div class="main-bdy">
+                                <h4>Best Seller Item 1</h4>
+                                <p>Description of the best seller item.</p>
+                                <span>Price: $10.99 $8.99 10% off</span>
+                                <div class="main-ftr">
+                                    <button>Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card 2 -->
+                        <div class="main-box">
+                            <div class="main-img">
+                                <img src="https://placehold.co/200x100?text=BestSeller" alt="SellerImage">
+                            </div>
+                            <div class="main-bdy">
+                                <h4>Best Seller Item 2</h4>
+                                <p>Description of the best seller item.</p>
+                                <span>Price: $10.99 $8.99 10% off</span>
+                                <div class="main-ftr">
+                                    <button>Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card 3 -->
+                        <div class="main-box">
+                            <div class="main-img">
+                                <img src="https://placehold.co/200x100?text=BestSeller" alt="SellerImage">
+                            </div>
+                            <div class="main-bdy">
+                                <h4>Best Seller Item 3</h4>
+                                <p>Description of the best seller item.</p>
+                                <span>Price: $10.99 $8.99 10% off</span>
+                                <div class="main-ftr">
+                                    <button>Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- Combos -->
+            <section class="bestseller">
+                <!-- card 1 -->
+                <div class="card-box">
+                    <div class="headerBox">
+                        <h3>Combos</h3>
+                        <button>view all</button>
+                    </div>
+                    <div class="card">
+                        <!-- card 1 -->
+                        <div class="main-box">
+                            <div class="main-img">
+                                <img src="https://placehold.co/200x100?text=BestSeller" alt="SellerImage">
+                            </div>
+                            <div class="main-bdy">
+                                <h4>Best Seller Item 1</h4>
+                                <p>Description of the best seller item.</p>
+                                <span>Price: $10.99 $8.99 10% off</span>
+                                <div class="main-ftr">
+                                    <button>Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card 2 -->
+                        <div class="main-box">
+                            <div class="main-img">
+                                <img src="https://placehold.co/200x100?text=BestSeller" alt="SellerImage">
+                            </div>
+                            <div class="main-bdy">
+                                <h4>Best Seller Item 2</h4>
+                                <p>Description of the best seller item.</p>
+                                <span>Price: $10.99 $8.99 10% off</span>
+                                <div class="main-ftr">
+                                    <button>Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card 3 -->
+                        <div class="main-box">
+                            <div class="main-img">
+                                <img src="https://placehold.co/200x100?text=BestSeller" alt="SellerImage">
+                            </div>
+                            <div class="main-bdy">
+                                <h4>Best Seller Item 3</h4>
+                                <p>Description of the best seller item.</p>
+                                <span>Price: $10.99 $8.99 10% off</span>
+                                <div class="main-ftr">
+                                    <button>Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </section>
 
         </section>
-        <section class="treding">
 
-        </section>
-        <section class="starter">
-
-        </section>
-        <section class="bevrage">
-
-        </section>
-        
-        <section class="combo">
-
-        </section>
     </section>
-
+    <!-- footer -->
     <footer>
-
+        <!-- footer start -->
+        <section class="footer-main">
+            <div class="footer-part">
+                <!-- footer logo -->
+                <div class="flogo">
+                    <img src="https://placehold.co/200x80?text=ShopLogo" alt="flogo" name="flogo">
+                </div>
+                <!-- footer quick links -->
+                <div class="fquickLinks">
+                    <h2>Quick Links</h2>
+                    <div class="fHref">
+                        <a href="Our Menu">Our Menus</a><br>
+                        <a href="Our Offer">Our Offers</a><br>
+                        <a href="achieved">Know what we have achived</a>
+                    </div>
+                </div>
+                <!-- subscribe -->
+                <div class="subscribe">
+                    <h2>Wanna Get Updated with Our Exciting Offers?</h2>
+                    <p>follow us on :</p>
+                    <div class="socialMedia">
+                        <a href="instragram">instragram</a>
+                        <a href="facebook">facebook</a>
+                        <a href="twitter">twitter</a>
+                    </div>
+                    <hr>
+                    <div class="inputDetails">
+                        <input type="text" name="emailSubscription" placeholder="subscribe for daily updates">
+                        <button>Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </section>
     </footer>
-  </body>
+</body>
+
 </html>
